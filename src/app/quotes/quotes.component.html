@@ -1,3 +1,9 @@
-<p>
-  quotes works!
-</p>
+<ul>
+  <div *ngFor='let quotes of Quotesclass;let i = index'>
+      <li>{{quotes.name}} </li>
+      <button  (click)='toogleDetails(i)'>Toogle Details</button>
+      <app-quotes-details *ngIf="quotes.showDescription" [quotes]='quotes' (isComplete)= 'completequotes($event,i)'></app-quotes-details>
+    </div>
+  
+</ul>
+<p *ngIf='quotes.length > 5'>You have too many quotes</p>
