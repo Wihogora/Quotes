@@ -6,10 +6,12 @@ import { Quotesclass } from '../quotesclass';
   styleUrls: ['./quotes-details.component.css']
 })
 export class QuotesDetailsComponent implements OnInit {
-  @Input() quotes:Quotesclass;
-  @Output() isComplete= new EventEmitter<boolean>();
-
-  goalComplete(complete:boolean){
+  newquotes= new Quotesclass(0,"","",new Date()); 
+  // @Input() quotes:Quotesclass;
+  // @Output() isComplete= new EventEmitter<boolean>();
+  // this.isComplete.emit(complete);
+  @Output() addquotes=new EventEmitter<Quotesclass>();
+  goalDelete(complete:boolean){
     this.isComplete.emit(complete);
   }
   constructor() { }
