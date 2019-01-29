@@ -44,7 +44,7 @@ completequotes(isComplete,index){
           // this.newquotes=new Quotesclass(0,"","",new Date()); 
       // }
     }
-  constructor() { }
+    constructor() { }
 
   ngOnInit() {
   }
