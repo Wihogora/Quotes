@@ -23,6 +23,9 @@ upvote(index){
   this.quotes[index].upvotes++;
 
 }
+downvote(index){
+  this.quotes[index].downvotes--;
+}
 
 
 completequotes(isComplete,index){
