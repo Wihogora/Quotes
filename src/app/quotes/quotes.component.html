@@ -19,10 +19,11 @@
   <div *ngFor='let quotes of quotes;let i = index'>
       <li >{{quotes.name}}</li>
       <button  (click)='toogleDetails(i)'>Toogle Details</button>
-      <button (click)='upvotes(i)' class="btn btn-primary btn-xs"><i class="fa fa-thumbs-o-up"></i>{{quotes.upvotes}}</button>&nbsp;&nbsp;
-      <button (click)='downvotes(i)' class="btn btn-danger btn-xs"><i class="fa fa-thumbs-o-down"></i>{{quotes.downvotes}}</button>
+      <button (click)='upvote(i)' class="btn btn-primary btn-xs"><i class="fa fa-thumbs-o-up"></i>{{quotes.upvotes}}</button>&nbsp;&nbsp;
+      <button (click)='downvote(i)' class="btn btn-danger btn-xs"><i class="fa fa-thumbs-o-down"></i>{{quotes.downvotes}}</button>
       <app-quotes-details *ngIf="quotes.showAuthor" [quotes]='quotes' (isComplete)= 'completequotes($event,i)'></app-quotes-details>
   </div>
-
+  
+  
 </ul>
 <p *ngIf='quotes.length > 5'>You have too many quotes</p>
