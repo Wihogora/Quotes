@@ -4,9 +4,9 @@
   <h1>Quotes</h1>
    <form #quotesForm='ngForm' (ngSubmit)='quotesComplete()'>
      Name of the Author
-     <input type="text" required class="form-control" id="author" [(ngModel)]="newquotes.author" name="author"><br><br>
+     <input type="text" required class="form-control" id="name" [(ngModel)]="newquotes.name" name="name"><br><br>
      Enter the Quote here:
-     <textarea id="author" rows="4" required id="author" [(ngModel)]="newquotes.name" name="name"></textarea><br>
+     <textarea id="author" rows="4" required id="author" [(ngModel)]="newquotes.author" name="author"></textarea><br>
      <button type="submit" class="btn btn-success btn-lg" style="margin-top:40px;">Add Quote</button>
 
 <div class="app-quotes"></div>
