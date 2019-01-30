@@ -20,3 +20,10 @@ https://wihogora.github.io/Quotes/
 ## BDD
 
 This program is about a user creating a quotes and be added to the existing quotes, and the quotes being upvoted or downvoted.
+
+## Technologies used
+
+* ANGULAR
+* HTML
+* CSS
+* TYPESCRIPT
