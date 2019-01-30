@@ -1,7 +1,7 @@
 <div style="background-color:bisque;">
  
   <img src="http://www.prophetpbuh.com/wp-content/uploads/2014/03/Best-day-Islamic-Quotes-Hadiths-Duas.jpg" style="height:400px;width: 400px;">
-  <h1>Quotes</h1>
+  <h1>Enter a Quote</h1>
    <form #quotesForm='ngForm' (ngSubmit)='quotesComplete()'>
      Name of the Author
      <input type="text" required class="form-control" id="name" [(ngModel)]="newquotes.name" name="name"><br><br>
@@ -15,6 +15,7 @@
    </form>
 
 </div>
+<h1> List of Quotes</h1>
 <ul>
   <div *ngFor='let quotes of quotes;let i = index'>
       <li >{{quotes.name}}</li>
