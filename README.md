@@ -1,6 +1,5 @@
-# Quotes
+# Quotes, 30th January 2019
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.2.
 ## Author
 
 Wihogora Wivine
@@ -8,10 +7,6 @@ Wihogora Wivine
 ## Description
 
 This is a quotes program
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Link to site
 
