@@ -7,7 +7,7 @@ Wihogora Wivine
 
 ## Description
 
-This program is about a user creating a quotes and be added to the existing quotes, and the quotes being upvoted or downvoted.
+This is a quotes program
 
 ## Development server
 
@@ -16,3 +16,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 ## Link to site
 
 https://wihogora.github.io/Quotes/
+
+## BDD
+
+This program is about a user creating a quotes and be added to the existing quotes, and the quotes being upvoted or downvoted.
